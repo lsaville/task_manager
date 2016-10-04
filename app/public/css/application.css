@@ -1,12 +1,18 @@
-.link-style a {
+.link-style{
     color: black;
     text-decoration: none;
 }
-.link-style a:hover,
-.link-style a:focus {
-    color: #871F78;
+.link-style:hover,
+.link-style:focus {
+    color: #fff933;
     text-decoration: none;
 }
+
 body {
-  background-color: lightgray;
+  background-color: #E0E3E5;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;:
 }
