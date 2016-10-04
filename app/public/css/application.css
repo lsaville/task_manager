@@ -1,0 +1,12 @@
+.link-style a {
+    color: black;
+    text-decoration: none;
+}
+.link-style a:hover,
+.link-style a:focus {
+    color: #871F78;
+    text-decoration: none;
+}
+body {
+  background-color: lightgray;
+}

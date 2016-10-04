@@ -4,3 +4,13 @@
   <h3><a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
   <p><%= task.description %></p>
 <% end %>
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Task Manager</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/tasks">Task Index</a></li>
+      <li><a href="/tasks/new">New Task</a></li>
+    </ul>
+  </div>
+</nav>
